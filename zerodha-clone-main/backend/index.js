@@ -211,6 +211,7 @@ app.post("/newOrder", async (req, res) => {
     price: req.body.price,
     mode: req.body.mode,
   });
+ 
 
   newOrder.save();
 
